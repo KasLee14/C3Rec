@@ -26,11 +26,6 @@ MOOCCubeX:
   ub_weights: 0.3
   max_seq_len: 50
 
-  group_num: 3 # 组个数
-  group_intra_factor: 0.8 # 组内时间衰退因子
-  group_inter_factor: 0.9 # 组间时间衰退因子
-  group_partition: 7
-
   l2_dis: [1.00E-05, 2.00E-05]
 
 Ednet:
@@ -60,10 +55,5 @@ Ednet:
 
   ub_weights: 0.3
   max_seq_len: 50
-
-  group_num: 3 # 组个数
-  group_intra_factor: 0.8 # 组内时间衰退因子
-  group_inter_factor: 0.9 # 组间时间衰退因子
-  group_partition: 7
 
   l2_dis: [1.00E-05]
